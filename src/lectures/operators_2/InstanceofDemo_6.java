@@ -1,9 +1,14 @@
 package operators_2;
 
 public class InstanceofDemo_6 {
-	class Parent {}
-	class Child extends Parent implements MyInterface {}
-	interface MyInterface {}
+	class Parent {
+	}
+
+	class Child extends Parent implements MyInterface {
+	}
+
+	interface MyInterface {
+	}
 
 	public static void main(String[] args) {
 		InstanceofDemo_6 demo = new InstanceofDemo_6();

@@ -53,8 +53,8 @@ public class Arrays_3 {
 
 	void multiDimensionalArrayDemo() {
 		String[][] names = {
-			{"Mr. ", "Mrs. ", "Ms. "},
-			{"Smith", "Jones"}
+			{ "Mr. ", "Mrs. ", "Ms. " },
+			{ "Smith", "Jones" }
 		};
 		// Mr. Smith
 		System.out.println(names[0][0] + names[1][0]);
@@ -72,8 +72,8 @@ public class Arrays_3 {
 	}
 
 	void arrayCopyOfDemo() {
-		char[] copyFrom = {'d', 'e', 'c', 'a', 'f', 'f', 'e',
-			'i', 'n', 'a', 't', 'e', 'd'};
+		char[] copyFrom = { 'd', 'e', 'c', 'a', 'f', 'f', 'e',
+			'i', 'n', 'a', 't', 'e', 'd' };
 
 		char[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);
 
